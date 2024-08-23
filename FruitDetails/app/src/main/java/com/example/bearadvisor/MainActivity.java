@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void onClickFindBeer(View view){
+    public void onClickFind(View view){
         TextView descript =  findViewById(R.id.description);
         Spinner item =  findViewById(R.id.item);
         String selectedItem = String.valueOf(item.getSelectedItem());
